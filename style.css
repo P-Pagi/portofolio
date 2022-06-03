@@ -100,7 +100,7 @@ body {
 
 
     .main{
-        height: autopx;
+        height: 750px;
     }
 
     .content{
@@ -116,7 +116,7 @@ body {
     .data {
         position: static;
         width: 300px;
-        height: 350px;
+        height: 420px;
         padding: 4%;
     }
 
