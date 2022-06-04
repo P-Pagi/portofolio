@@ -8,18 +8,18 @@ body {
     overflow: hidden;
 }
 
-.navbarr { 
+.navbarr {
     background-color: #272727;
     text-align: center;
-    height:60px;
+    height: 60px;
 }
 
-.navv{
+.navv {
     display: inline-block;
-    padding: 1%;    
+    padding: 1%;
 }
 
-.navbarr button{
+.navbarr button {
     margin: 2px 5px;
     background: none;
     text-decoration: none;
@@ -29,8 +29,8 @@ body {
 
 }
 
-.navbarr button:focus{
-    border-bottom:3px solid white;
+.navbarr button:focus {
+    border-bottom: 3px solid white;
 }
 
 .main {
@@ -38,7 +38,7 @@ body {
     height: 675px;
 }
 
-.content{
+.content {
     padding: 12% 12%;
 
 }
@@ -54,7 +54,7 @@ body {
     border: 2px solid white;
     background-color: white;
     border-radius: 100px;
-    display: inline-block;   
+    display: inline-block;
 }
 
 .data {
@@ -70,12 +70,11 @@ body {
     overflow: auto;
     font-size: 20px;
     text-align: center
-
 }
 
 .navbarr a:target {
     border: 2px solid #D4D4D4;
-  background-color: #e5eecc;
+    background-color: #e5eecc;
 }
 
 .footer {
@@ -85,26 +84,27 @@ body {
     padding: 1% 0;
 }
 
-.footer p{
+.footer p {
     text-align: center;
 }
 
 
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 750px) {
     body {
         overflow: auto;
     }
-    .navbarr{
+
+    .navbarr {
         padding: 3%;
     }
 
 
-    .main{
+    .main {
         height: 750px;
     }
 
-    .content{
+    .content {
         text-align: center;
         display: block;
         padding: 0 5%;
@@ -120,8 +120,9 @@ body {
         height: 420px;
         padding: 4%;
         text-align: justify;
-        text-justify: distribute;
-        text-align-last: left;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        word-spacing: -0.05em;
     }
 
     .footer {
