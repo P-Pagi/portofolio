@@ -69,7 +69,8 @@ body {
     width: 50%;
     overflow: auto;
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
+
 }
 
 .navbarr a:target {
@@ -118,6 +119,7 @@ body {
         width: 300px;
         height: 420px;
         padding: 4%;
+        text-align: justify;
     }
 
     .footer {
